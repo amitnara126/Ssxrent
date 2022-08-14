@@ -44,9 +44,9 @@ Properly setup the environment variables or populate `config.py` with the values
 * `API_ID`(required) - Get your telegram API_ID from [https://my.telegram.org/](https://my.telegram.org/).
 * `API_HASH`(required) - Get your telegram API_HASH from [https://my.telegram.org/](https://my.telegram.org/).
 * `BOT_TOKEN`(required) - Obtain your bot token from [Bot Father](https://t.me/BotFather "Bot Father").
-* `LOG_CHANNEL`(required) - Log channel's id.
-* `DATABASE_URL`(required) - Mongodb database URI.
-* `AUTH_USERS`(required) - Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified.
+* `LOG_CHANNEL`(required) - Log channel's id[https://t.me/VCAM_CHANNLE]
+* `DATABASE_URL`(required) - Mongodb database URI[mongodb+srv://VCAM:<VCAM>@cluster0.kzpix.mongodb.net/myFirstDatabase?retryWrites=true&w=majority]
+* `AUTH_USERS`(required) - Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified[1654867043]
 * `HOST`(required) - Public URL of file streaming service ([See Setting up Streaming Service](#setting-up-streaming-service)).
 * `SESSION_NAME`(optional) - Name you want to call your bot's session, Eg: bot's username.
 * `MAX_PROCESSES_PER_USER`(optional) - Number of parallel processes each user can have, defaults to 2.
